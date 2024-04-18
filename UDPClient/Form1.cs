@@ -9,9 +9,9 @@ namespace udpClient
 {
     public partial class Form1 : Form
     {
-        private static IPEndPoint ep = new IPEndPoint(IPAddress.Parse("192.168.220.223"), 35486);
+        private static IPEndPoint ep = new IPEndPoint(IPAddress.Parse("192.168.220.227"), 35486);
         private static UdpClient udpClient = new UdpClient(34285);
-        private static string ipFrom = "192.168.220.223";
+        private static string ipFrom = "192.168.220.227";
         private static string ipTo = "";
         private System.Threading.Timer _timer = null;
         public Form1()
